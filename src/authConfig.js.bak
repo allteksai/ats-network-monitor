@@ -1,0 +1,45 @@
+/**
+ * ATS Network Monitor — MSAL Auth Config
+ * Update CLIENT_ID and TENANT_ID to match your Azure App Registration.
+ * See docs/azure-app-setup.md
+ */
+
+export const msalConfig = {
+  auth: {
+    clientId:    "YOUR_CLIENT_ID",    // Azure App Registration → Application (client) ID
+    authority:   "https://login.microsoftonline.com/YOUR_TENANT_ID",
+    redirectUri: window.location.origin,
+  },
+  cache: {
+    cacheLocation:       "sessionStorage",
+    storeAuthStateInCookie: false,
+  },
+};
+
+export const loginRequest = {
+  scopes: [
+    "User.Read",
+    "Sites.ReadWrite.All",
+    "Files.ReadWrite.All",
+  ],
+};
+
+export const graphConfig = {
+  graphMeEndpoint: "https://graph.microsoft.com/v1.0/me",
+};
+
+// SharePoint config — update TENANT and SITE_NAME to match config.py
+const TENANT    = "atsusa";                // ← change this if tenant URL changes
+const SITE_NAME = "ATSNetMonitor";
+const SP_HOST   = `${TENANT}.sharepoint.com`;
+
+// Site ID format for Graph API: {hostname},{site-collection-id},{web-id}
+// Get this by running: GET https://graph.microsoft.com/v1.0/sites/{hostname}:/sites/{siteName}
+// Then paste the "id" field value below.
+export const SP_CONFIG = {
+  siteId:      "sdausa.sharepoint.com,73495872-b9ff-4888-b6cb-e57b6fad783c,710c1dee-39ba-46ee-99ce-b1da529150b4",
+  listClients: "ATS_Clients",
+  listDevices: "ATS_Devices",
+  listEvents:  "ATS_Events",
+  docLibName:  "ATS_DeviceFiles",
+};
