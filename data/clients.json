@@ -1,0 +1,12 @@
+[
+  {
+    "ClientCode": "AMBIT",
+    "Title": "Ambit Architecture",
+    "GatewayIP": "10.1.5.1",
+    "Subnet": "10.1.5.0/24",
+    "LogoUrl": null,
+    "QuickLinksJson": null,
+    "PortalKey": "AMBIT",
+    "updated": "2026-06-28T19:50:35.191515Z"
+  }
+]
