@@ -7,16 +7,6 @@
     "LogoUrl": null,
     "QuickLinksJson": "[{\"name\":\"Frigate\",\"url\":\"http://10.1.4.51:30058\",\"icon\":\"\ud83d\udcf7\"},{\"name\":\"TrueNAS\",\"url\":\"https://10.1.4.51\",\"icon\":\"\ud83d\uddc4\ufe0f\"}]",
     "PortalKey": "c4V-9rx2mK",
-    "updated": "2026-07-02T14:00:27.908043Z"
-  },
-  {
-    "ClientCode": "AMBIT",
-    "Title": "Ambit Architecture",
-    "GatewayIP": "10.1.5.1",
-    "Subnet": "10.1.5.0/24",
-    "LogoUrl": null,
-    "QuickLinksJson": null,
-    "PortalKey": "AMBIT",
-    "updated": "2026-07-02T14:00:42.319525Z"
+    "updated": "2026-07-02T14:05:28.527129Z"
   }
 ]
