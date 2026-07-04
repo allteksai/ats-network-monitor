@@ -1,15 +1,5 @@
 [
   {
-    "ClientCode": "CAVO",
-    "Title": "Cavo Design Build",
-    "GatewayIP": "10.1.4.1",
-    "Subnet": "10.1.4.0/24",
-    "LogoUrl": null,
-    "QuickLinksJson": "[{\"name\":\"Frigate\",\"url\":\"http://10.1.4.51:30058\",\"icon\":\"\ud83d\udcf7\"},{\"name\":\"TrueNAS\",\"url\":\"https://10.1.4.51\",\"icon\":\"\ud83d\uddc4\ufe0f\"}]",
-    "PortalKey": "c4V-9rx2mK",
-    "updated": "2026-07-04T13:15:26.146888Z"
-  },
-  {
     "ClientCode": "AMBIT",
     "Title": "Ambit Architecture",
     "GatewayIP": "10.1.5.1",
@@ -18,5 +8,15 @@
     "QuickLinksJson": null,
     "PortalKey": "AMBIT",
     "updated": "2026-07-04T13:15:38.270124Z"
+  },
+  {
+    "ClientCode": "CAVO",
+    "Title": "Cavo Design Build",
+    "GatewayIP": "10.1.4.1",
+    "Subnet": "10.1.4.0/24",
+    "LogoUrl": null,
+    "QuickLinksJson": "[{\"name\":\"Frigate\",\"url\":\"http://10.1.4.51:30058\",\"icon\":\"\ud83d\udcf7\"},{\"name\":\"TrueNAS\",\"url\":\"https://10.1.4.51\",\"icon\":\"\ud83d\uddc4\ufe0f\"}]",
+    "PortalKey": "c4V-9rx2mK",
+    "updated": "2026-07-04T13:20:26.601670Z"
   }
 ]
